@@ -1,0 +1,1 @@
+SELECT bar FROM "Sells", "Likes" WHERE "Likes".drinker = 'Joe' AND "Likes".beer = "Sells".beer; 
